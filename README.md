@@ -37,9 +37,6 @@ $$
 \text{Total Gigabytes} = \frac{4,780,200,832}{1,073,741,824} \approx 4.6 \text{ GB}
 $$
 
-After doing a few calculations, I realized that using .txt files would be insufficient for this type of project (I noticed that after running the code for about 10 seconds, the .txt files couldn't handle more than 500 MB of data! :)
-
-After researching online, I chose HDF5 as the storage medium where I could easily and comfortably store and organize my data, and it can be considered successful.
 
 
 ### Data Size Table
@@ -60,6 +57,10 @@ After researching online, I chose HDF5 as the storage medium where I could easil
 | 1,000,000,000,000,000,000,000,000,000,000,000,000,000,000| Decillion| 33 |
 
 ### Limitations
+
+After doing a few calculations, I realized that using .txt files would be insufficient for this type of project (I noticed that after running the code for about 10 seconds, the .txt files couldn't handle more than 500 MB of data! :)
+
+After researching online, I chose **HDF5** as the storage medium where I could easily and comfortably store and organize my data, and it can be considered successful.
 
 The problem is that if we continue processing this code, our data will become too large for normal storage solutions. When we need to find a specific hash, the amount of data we have to search through will be enormous, and it will take a long time to find anything. Even using a hash table or storing data in binary format might not help much with our current technology.
 

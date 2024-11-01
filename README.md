@@ -37,6 +37,11 @@ $$
 \text{Total Gigabytes} = \frac{4,780,200,832}{1,073,741,824} \approx 4.6 \text{ GB}
 $$
 
+After doing a few calculations, I realized that using .txt files would be insufficient for this type of project (I noticed that after running the code for about 10 seconds, the .txt files couldn't handle more than 500 MB of data! :)
+
+After researching online, I chose HDF5 as the storage medium where I could easily and comfortably store and organize my data, and it can be considered successful.
+
+
 ### Data Size Table
 
 | Number          | Name        | Zeros (Trailing) |

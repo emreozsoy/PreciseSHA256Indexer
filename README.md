@@ -8,7 +8,22 @@ Before we begin, I want to mention that this project was not entirely successful
 
 I wanted to combine two techniques: **brute force** and a **rainbow table**. The idea is to save every possible SHA256 version of decimal numbers, so we can later determine which numbers fall into the range we are looking for. 
 
-However, I found out that this project is not ideal for regular computers. While there are websites that can solve 12-character long SHA256 passwords using similar techniques, my approach quickly created a massive amount of data. When I only ran the code for **74,622,138** hash values, the data size grew to about **4.6 GB**.
+For example these two decimal numbers. There exactly 30 de;
+```python
+start = Decimal("1.300000000000000000000000000000")
+end = Decimal("1.309999999999999999999999999999")
+step = Decimal("0.000000000000000000000000000001")
+```
+- The part after the decimal point is `300000000000000000000000000000`, which consists of **30** digits(sum of digits is 31 ).
+-If we keep the first **3 decimal places** fixed as \(1.30\), there are **27 variable decimal places** left. Each of these can have **10 possible values** (from 0 to 9), which results in:
+
+$$
+10^{27} = 1,000,000,000,000,000,000,000,000,000
+$$
+
+Thus, there are **1 octillion** possible values for the remaining 27 decimal places.
+
+I found out that this project is not ideal for regular computers. While there are websites that can solve 12-character long SHA256 passwords using similar techniques, my approach quickly created a massive amount of data. When I only ran the code for **74,622,138** hash values, the data size grew to about **4.6 GB**.
 
 ### Data Size Calculation
 

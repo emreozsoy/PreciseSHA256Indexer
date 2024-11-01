@@ -6,7 +6,7 @@ Welcome to the SHA256 Decimal Finder project! This project is about trying to fi
 
 ## What This Project Tries to Do
 
-In this project, I wanted to combine two techniques: **brute force** and a **rainbow table**. The idea is to save every possible SHA256 version of decimal numbers, so we can later determine which numbers fall into the range we are looking for.
+I wanted to combine two techniques: **brute force** and a **rainbow table**. The idea is to save every possible SHA256 version of decimal numbers, so we can later determine which numbers fall into the range we are looking for. 
 
 However, I found out that this project is not ideal for regular computers. While there are websites that can solve 12-character long SHA256 passwords using similar techniques, my approach quickly created a massive amount of data. When I only ran the code for **74,622,138** hash values, the data size grew to about **4.6 GB**.
 

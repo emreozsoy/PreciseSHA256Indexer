@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the SHA256 Decimal Finder project! This project is about trying to find the first three digits of decimal numbers that are hidden as SHA256 hashes. For example, we want to find out the hash for a number like `1.300000000000000000000000000000`. Unfortunately, we can’t easily find this hash because SHA256 is very secure and hard to reverse.
+Before we begin, I want to mention that this project was not entirely successful. The project is about trying to find the first three digits of decimal numbers that are hidden as SHA256 hashes. For example, we want to find out the hash for a number like `1.300000000000000000000000000000`. Unfortunately, we can’t easily find this hash because SHA256 is very secure and hard to reverse.
 
 ## What This Project Tries to Do
 

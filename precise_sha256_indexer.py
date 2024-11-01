@@ -33,7 +33,6 @@ def check_hash(target_hash):
         
         # Read all hashes into a list
         hash_values = [hash.decode('utf-8') for hash in hash_dataset[:]]
-        veri_sayisi = len(hash_dataset)
 
         logging.info(f"Total {veri_sayisi} hash values in the file.")
         

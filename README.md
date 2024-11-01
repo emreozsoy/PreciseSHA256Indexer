@@ -60,6 +60,6 @@ The problem is that if we continue processing this code, our data will become to
 
 ## Conclusion
 
-After all my efforts, I learned that this approach is not possible with my current resources. This project might not be a successful attempt, but it has taught me a lot about the limitations of technology. However, if you are looking for smaller ranges or numbers, this code might still work for you and could be improved with better algorithms.
+After all my efforts, I learned that this approach is not possible with my current resources. This project might not be a successful attempt, but it has taught me a lot about the limitations of technology and I should have conducted more thorough research before attempting this. However, if you are looking for smaller ranges or numbers, this code might still work for you and could be improved with better algorithms.
 
 Thank you for reading!
